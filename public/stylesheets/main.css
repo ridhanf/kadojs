@@ -27,8 +27,15 @@
     border: 2px solid white; }
     .jumbotron .lang-logo img {
       max-width: 100%; }
-
-body{
-  font-size: 2rem!important;
+.heading-jumbo{
+  background: #f8fa77;
+  /* padding: 2rem; */
 }
-
+.heading .btn{
+  width: 200px;
+}
+.container{
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items;: center; */
+}
