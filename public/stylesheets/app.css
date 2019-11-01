@@ -1,0 +1,10 @@
+body{
+    /* font-size: 2rem; */
+}
+.navbtm{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 4rem;
+    background: #efefef;
+}
