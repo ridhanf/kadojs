@@ -11,7 +11,7 @@ const env = { PORT: 5000, ...process.env };
 const child = spawn('node', ['index.js'], { env });
 
 test('responds to requests', (t) => {
-  t.plan(4);
+  t.plan(3);
 
   // Wait until the server is ready
   child.stdout.on('data', () => {
@@ -25,8 +25,7 @@ test('responds to requests', (t) => {
       // Successful response
       t.equal(response.statusCode, 200);
       // Assert content checks
-      t.notEqual(body.indexOf('<title>Node.js Getting Started on Heroku</title>'), -1);
-      t.notEqual(body.indexOf('Getting Started with Node on Heroku'), -1);
+      t.notEqual(body.indexOf('<title>Kadosilang | Giving platform</title>'), -1);
     });
   });
 });
