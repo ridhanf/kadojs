@@ -1,7 +1,16 @@
 {
-  "name": "Start on Heroku: Node.js",
+  "name": "kadosilang",
   "description": "A barebones Node.js app using Express 4",
   "repository": "https://github.com/ridhanf/kadojs.git",
   "keywords": ["node", "express", "heroku"],
-  "image": "heroku/nodejs"
+  "image": "heroku/nodejs",
+  "scripts": {},
+  "env": {},
+  "formation": {},
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
 }
